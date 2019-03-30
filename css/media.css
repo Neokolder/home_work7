@@ -1,0 +1,233 @@
+@media(max-width: 960px){
+    .wrapper{
+        width: 705px;
+    }
+    .header{
+        height: 800px;
+    }
+    .header-menu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        margin-bottom: 35px;
+    }
+    .adv-content{
+        margin-top: 80px;
+        width: 705px;
+    }
+    .adver{
+        width: 310px;
+        margin-top: 100px;
+    }
+    .adver h2{
+        font-size: 36px;
+    }
+    .adver h3{
+        font-size: 18px;
+    }
+    .adver p{
+        font-size: 12px;
+    }
+    .adv-content img{
+        margin-right: 30px;
+    }
+    .about-content{
+        width: 705px;
+    }
+    .about-content > div >div{
+        width: 200px;
+    }
+    .about-content h2{
+        font-size: 24px;
+    }
+    .about-content span{
+        display: none;
+    }
+    .main-content{
+        width: 705px;
+        background-position: 5% 50%;
+        background-size: 350px;
+    }
+    .starts{
+        width: 310px;
+        margin-top: 120px;
+        height: 230px;
+        overflow: hidden;
+    }
+    .starts h3{
+        font-size: 24px;
+    }
+    .starts p{
+        font-size: 16px;
+    }
+    .updates{
+        width: 350px;
+    }
+    .updates p{
+        font-size: 16px;
+    }
+    .updates span{
+        display: none;
+    }
+    .updates h3{
+        font-size: 30px;
+    }
+    .logos-content{
+        width: 705px;
+    }
+    .footer-content{
+        width: 705px;
+    }
+    .footer-content > div{
+        width: 240px;
+    }
+    .footer-content h4{
+        font-size: 22px;
+    }
+    .footer-content .h-spec{
+        font-size: 24px;
+    }
+    .down-content{
+        width: 705px;
+    }
+    .down-content li{
+        margin-right: 5px;
+    }
+}
+@media(max-width: 768px){
+    .wrapper{
+        width: 430px;
+    }
+    .header{
+        height: 550px;
+    }
+    .header-menu{
+        align-items: center;
+    }
+    .nav-menu li{
+        display: none;
+        margin: 0;
+    }
+    .nav-menu li:first-child{
+        display: block;
+    }
+    .adv{
+        height: 240px;
+    }
+    .adv-content{
+        width: 430px;
+        justify-content: center;
+    }
+    .adv-content img{
+        margin-right: 10px;
+    }
+    .adver{
+        width: 200px;
+        margin-top: 90px;
+    }
+    .adver h2{
+        font-size: 24px;
+    }
+    .adver h3{
+        font-size: 12px;
+    }
+    .adver p{
+        display: none;
+    }
+    .adv-content img{
+        margin-right: 0px;
+        height: 240px;
+    }
+    .about{
+        height: 600px;
+    }
+    .about-content{
+        width: 430px;
+        flex-flow: column;
+    }
+    .about-content h2{
+        font-size: 24px;
+    }
+    .about-content >div{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .about-content> div> div{
+        width: 300px;
+    }
+    .main{
+        height: 800px;
+    }
+    .main-content{
+        width: 430px;
+        background-position: 5% 22%;
+    }
+    .main-content > div{
+        flex-flow: column;
+    }
+    .logos{
+        height: 230px;
+    }
+    .logos-content{
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .logos-content img{
+        width: 88px;
+    }
+    .footer{
+        height: 680px;
+    }
+    .footer-content{
+        width: 430px;
+        flex-flow: column;
+    }
+    .footer-content div{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .down-content{
+        width: 430px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .down-content a{
+        font-size: 12px;
+    }
+}
+@media(max-width: 480px){
+    .wrapper{
+        width: 280px;
+    }
+    .header{
+        height: 500px;
+    }
+    .adv-content{
+        width: 280px;
+    }
+    .about{
+        height: 550px;
+    }
+    .about-content{
+        width: 280px;
+    }
+    .main-content{
+        width: 280px;
+    }
+    .starts{
+        width: 300px;
+    }
+    .logos-content{
+        width: 280px;
+    }
+    .footer{
+        height: 820px;
+    }
+    .footer-content{
+        width: 280px;
+    }
+    .down-content{
+        width: 280px;
+    }
+}

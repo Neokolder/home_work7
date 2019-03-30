@@ -1,0 +1,256 @@
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    height: 850px;
+    background: url(../img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    margin-right: 45px;
+}
+.nav-menu li:last-child{
+    margin-right: 0;
+}
+.nav-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+.nav-menu a:after{
+    content: '';
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 20px;
+    background: #edbfff;
+}
+.nav-menu a:hover:after{
+    content: '';
+    display: block;
+}
+.adv{
+    margin-top: 160px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.adv-content{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.adver{
+    width: 500px;
+    margin-top: 80px;
+}
+.adver h2{
+    font-size: 60px;
+    color: white;
+}
+.adver h3{
+    font-size: 32px;
+    color: pink;
+}
+.adver p{
+    font-size: 18px;
+    color: white;
+}
+.adv-content img{
+    margin-right: 75px;
+}
+.about{
+    height: 330px;
+    background: linear-gradient(to bottom, #734f81, #33263b); 
+    box-shadow: 10px 10px 55px black;
+}
+.about-content{
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-content >div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.about-content img{
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.about-content> div> div{
+    width: 250px;
+    line-height: 1.5;
+    display: flex;
+    flex-flow: column;
+}
+.about-content h2{
+    font-size: 30px;
+    color: white;
+}
+.about-content p{
+    font-size: 16px;
+}
+.about-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    align-self: flex-end;
+    text-shadow: white 0 0 5px;
+}
+.main{
+    height: 500px;
+    background: #f9f9f9;
+}
+.main-content{
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    background: url(../img/cloud.png);
+    background-repeat: no-repeat;
+    background-position: 5% 60%;
+}
+.main-content > div{
+    display: flex;
+    justify-content: space-between;
+}
+.logos{
+    height: 120px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-bottom: 0.1px solid lightgrey;
+    border-top: 0.1px ridge lightgrey;
+}
+.logos-content{
+    height: 100%;
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logos-content img{
+    align-self: center;
+}
+.starts{
+    margin-top: 130px;
+    width: 450px;
+    display: flex;
+    line-height: 1.5;
+}
+.starts div{
+    margin-right: 15px;
+}
+.starts h3{
+    font-size: 30px;
+    color: pink;
+}
+.starts span{
+    color: black;
+}
+.updates{
+    width: 450px;
+    margin-top: 130px;
+    line-height: 1.5;
+}
+.updates > div{
+    display: flex;
+    flex-flow: column;
+}
+.updates > div > div{
+    display: flex;
+}
+.updates h3{
+    font-size: 30px;
+}
+.updates >div>div>div{
+    margin-left: 10px;
+}
+.updates h4{
+    margin-top: 10px;
+    text-align: right;
+}
+.main-content p{
+    font-size: 16px;
+}
+.main-content > img{
+    margin-top: 90px;
+    width: 960px;
+}
+.main-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.h-spec{
+    font-size: 48px;
+}
+.spec{
+    font-size: 16px;
+    color: grey;
+    font-style: italic;
+}
+.footer{
+    height: 400px;
+    background: #ececec;
+}
+.footer-content{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-content div{
+    margin-top: 90px;
+    line-height: 1.5;
+    width: 300px;
+}
+.footer-content h4{
+    font-size: 30px;
+}
+.footer-content span{
+    color: grey;
+}
+.down{
+    height: 100px;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.down-content{
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.down-content a{
+    text-decoration: none;
+    color: white;
+}
+.down-content div{
+    display: flex;
+    flex-flow: row;
+}
+.down-content li{
+    display: inline-flex;
+    margin-right: 10px;
+}
